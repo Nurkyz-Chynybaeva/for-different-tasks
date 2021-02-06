@@ -114,6 +114,23 @@ document.body.append(ul6);
 
 
 
+let ul7 = document.createElement("ul");
+let li7 = document.createElement("li");           
+
+li7.append("Style #7");
+ul7.append(li7);
+
+li7.style.border = "6px solid  rgb(240, 208, 104)";
+li7.style.width = "209px"
+li7.style.color = " rgb(240, 208, 104)"
+li7.style.fontWeight ="800"
+li7.style.backgroundColor = "beige"
+li7.style.fontSize ="22px"
+li7.style.height = "53px"
+document.body.append(ul7);
+
+
+
 
 
 
