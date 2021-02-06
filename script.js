@@ -169,3 +169,35 @@ li9.style.backgroundColor = "rgb(206, 58, 58)"
 li9.style.textAlign = "center"
 
 document.body.append(ul9);
+
+
+
+
+
+
+
+let ul10 = document.createElement("ul");
+let li10 = document.createElement("li");           
+
+li10.append("Style #10");
+ul10.append(li10);
+li10.style.textAlign = "center";
+li10.style.borderTop = "20px dashed white";
+li10.style.borderBottom = "20px dashed white";
+li10.style.backgroundColor = "rgb(202, 202, 82"
+li10.style.width = "160px"
+li10.style.color = "white"
+li10.style.fontWeight ="800"
+li10.style.fontSize ="25px"
+li10.style.height = "45px"
+document.body.append(ul10);
+
+
+
+
+
+
+
+
+
+
