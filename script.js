@@ -72,6 +72,25 @@ document.body.append(ul4);
 
 
 
+let ul5 = document.createElement("ul");
+let li5 = document.createElement("li");           
+
+li5.append("Style #5");
+ul5.append(li5);
+li5.style.textAlign = "center";
+li5.style.borderTop = "11px solid green";
+li5.style.borderBottom = "11px solid pink";
+li5.style.borderRight = "11px solid black";
+li5.style.borderLeft = "11px solid lightblue";
+li5.style.width = "110px"
+li5.style.color = "orange"
+li5.style.fontWeigh = "800"
+li5.style.textDecoration = "underline"
+li5.style.fontSize ="22px"
+li5.style.height = "30px"
+document.body.append(ul5);
+
+
 
 
 
