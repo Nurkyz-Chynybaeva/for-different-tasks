@@ -135,3 +135,19 @@ document.body.append(ul7);
 
 
 
+let ul8 = document.createElement("ul");
+let li8 = document.createElement("li");           
+
+li8.append("Style #8");
+ul8.append(li8);
+li8.style.textAlign = "center";
+li8.style.border = "3.5px dashed white";
+li8.style.backgroundColor = "blue"
+li8.style.width = "218px"
+li8.style.color = "white"
+li8.style.fontWeight ="800"
+li8.style.fontSize ="40px"
+li8.style.height = "45px"
+document.body.append(ul8);
+
+
