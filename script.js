@@ -151,3 +151,21 @@ li8.style.height = "45px"
 document.body.append(ul8);
 
 
+
+
+
+let ul9 = document.createElement("ul");
+let li9 = document.createElement("li");
+
+ul9.append(li9);
+li9.append("Style #9");
+li9.style.color = "white";
+li9.style.fontSize = "25px";
+li9.style.borderTop = "17px dotted rgb(240, 208, 104)"
+li9.style.borderBottom = "17px dotted rgb(240, 208, 104)"
+li9.style.width = "160px"
+li9.style.height = "40px"
+li9.style.backgroundColor = "rgb(206, 58, 58)"
+li9.style.textAlign = "center"
+
+document.body.append(ul9);
