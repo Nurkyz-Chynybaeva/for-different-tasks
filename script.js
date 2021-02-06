@@ -93,6 +93,21 @@ document.body.append(ul5);
 
 
 
+let ul6 = document.createElement("ul");
+let li6 = document.createElement("li");           
+
+li6.append("Style #6");
+ul6.append(li6);
+li6.style.textAlign = "end";
+li6.style.border = "9px solid black";
+li6.style.width = "200px"
+li6.style.backgroundColor = "black"
+li6.style.fontStyle = "italic"
+li6.style.color = "white"
+li6.style.fontWeight ="800"
+li6.style.fontSize ="22px"
+li6.style.height = "30px"
+document.body.append(ul6);
 
 
 
