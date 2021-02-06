@@ -53,6 +53,21 @@ document.body.append(ul3);
 
 
 
+let ul4 = document.createElement("ul");
+let li4 = document.createElement("li");           
+
+li4.append("Style #4");
+ul4.append(li4);
+li4.style.textAlign = "center";
+li4.style.border = "9px dotted green";
+li4.style.width = "140px"
+li4.style.color = "blue"
+li4.style.fontWeight ="800"
+li4.style.fontSize ="22px"
+li4.style.height = "40px"
+document.body.append(ul4);
+
+
 
 
 
