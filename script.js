@@ -303,7 +303,7 @@ password.addEventListener ('button' , function(event){
     
     
 
-let number = document.querySelectorAll('#number');
+let number = document.querySelectorAll('#number1' , 'number2');
 let plus = document.querySelector('#plus');
 let minus = document.querySelector('#minus');                   
 let multiply = document.querySelector('#multiply');
@@ -312,7 +312,16 @@ let square = document.querySelector('#square');
 let cube = document.querySelector('#cube');
 
 
+    let number = 'number1 + number2';
 
+
+
+
+
+number.addEventListener(function(event){
+
+
+})
 
 
 
