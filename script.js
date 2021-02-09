@@ -266,10 +266,10 @@ minusButton.addEventListener("click", function(){
 
 
 
-
-
 let button = document.querySelector('button');
-let password = document.querySelector('#password');
+let password = document.querySelector('password');
+
+
 let message = document.createElement('p');
 let message2 = document.createElement('p');
 let message3 = document.createElement('p');
@@ -277,18 +277,11 @@ let message3 = document.createElement('p');
 
 
 
-    
 
 
 
+password.addEventListener ('button' , function(event){
 
-
-
-
-
-password.addEventListener ('input' , function(event){
-console.log(event);
-    event.preventDefault();
 
 
     if(password.value.length >= 5 ){
@@ -297,16 +290,16 @@ console.log(event);
 
     }
 
-    if (password.value.length >= 10 ){
-        message.innerText = "okay it fits..."
+   else if (password.value.length >= 10 ){
+        message2.innerText = "okay it fits..."
     }
-    if(password.value.length >= 15){
-        message.innerText = "okay it fits..."
+   else if(password.value.length >= 15){
+        message3.innerText = "excellent!"
     }
 
 
     
-    })
+    });
     
     
 
