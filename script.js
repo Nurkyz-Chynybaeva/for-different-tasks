@@ -271,8 +271,8 @@ minusButton.addEventListener("click", function(){
 let button = document.querySelector('button');
 let password = document.querySelector('#password');
 let message = document.createElement('p');
-
-
+let message = document.createElement('p');
+let message = document.createElement('p');
 
 
 
@@ -291,12 +291,20 @@ console.log(event);
     event.preventDefault();
 
 
-    if(password.value.length <= 5 ){
+    if(password.value.length >= 5 ){
     
-     message.innerText = "Bad!"
+     message.innerText = "too hopeless!"
 
     }
-    
+
+    if (password.value.length >= 10 ){
+        message.innerText = "okay it fits..."
+    }
+    if(password.value.length >= 15){
+        message.innerText = "okay it fits..."
+    }
+
+
     
     })
     
