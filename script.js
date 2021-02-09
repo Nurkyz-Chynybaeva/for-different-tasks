@@ -271,8 +271,8 @@ minusButton.addEventListener("click", function(){
 let button = document.querySelector('button');
 let password = document.querySelector('#password');
 let message = document.createElement('p');
-let message = document.createElement('p');
-let message = document.createElement('p');
+let message2 = document.createElement('p');
+let message3 = document.createElement('p');
 
 
 
