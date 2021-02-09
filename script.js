@@ -1,5 +1,5 @@
 
-
+/*
 let ul = document.createElement("ul");
 let li = document.createElement("li");
 
@@ -194,6 +194,7 @@ li10.style.fontSize ="25px"
 li10.style.height = "45px"
 document.body.append(ul10);
 
+*/
 
 
 
@@ -202,4 +203,115 @@ document.body.append(ul10);
 
 
 
+
+
+
+
+
+/*
+let h1 = document.createElement('h1');
+h1.innerText = "0";
+h1.style.color = "red";
+document.body.append(h1);
+
+
+
+
+
+let colorButton = document.createElement('colorButton')
+document.body.append(colorButton);
+let colorButton = document.querySelector(".color");
+
+
+let increaseButton = createElement('increaseButton')
+let increaseButton = document.querySelector(".size-plus");
+
+
+let decreaseButton = document.querySelector(".size-minus");
+let plusButton = document.querySelector(".plus");
+let minusButton = document.querySelector(".minus");
+
+let header = document.querySelector("h1");
+header.innerText = 0;
+let num = 0;
+
+colorButton.addEventListener("click", function(){
+    header.style.color = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase();
+
+})
+
+increaseButton.addEventListener("click", function(){
+    num ++;
+    header.style.fontSize = num + "5px";
+})
+decreaseButton.addEventListener("click", function(){
+    num --;
+    header.style.fontSize = num + "5px";
+})
+
+plusButton.addEventListener("click", function(){
+    num ++;
+    header.innerText = num;
+
+})
+
+minusButton.addEventListener("click", function(){
+    num --;
+    header.innerText = num;
+})
+
+
+*/
+
+
+
+
+
+
+let button = document.querySelector('button');
+let password = document.querySelector('#password');
+let message = document.createElement('p');
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+password.addEventListener ('input' , function(event){
+console.log(event);
+    event.preventDefault();
+
+
+    if(password.value.length <= 5 ){
+    
+     message.innerText = "Bad!"
+
+    }
+    
+    
+    })
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
