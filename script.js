@@ -266,66 +266,8 @@ minusButton.addEventListener("click", function(){
 
 
 
-let button = document.querySelector('button');
-let password = document.querySelector('password');
-
-
-let message = document.createElement('p');
-let message2 = document.createElement('p');
-let message3 = document.createElement('p');
 
 
 
 
-
-
-
-password.addEventListener ('button' , function(event){
-
-
-
-    if(password.value.length >= 5 ){
-    
-     message.innerText = "too hopeless!"
-
-    }
-
-   else if (password.value.length >= 10 ){
-        message2.innerText = "okay it fits..."
-    }
-   else if(password.value.length >= 15){
-        message3.innerText = "excellent!"
-    }
-
-
-    
-    });
-    
-    
-
-let number = document.querySelectorAll('#number1' , 'number2');
-let plus = document.querySelector('#plus');
-let minus = document.querySelector('#minus');                   
-let multiply = document.querySelector('#multiply');
-let division = document.querySelector('#division');
-let square = document.querySelector('#square');
-let cube = document.querySelector('#cube');
-
-
-    let number = 'number1 + number2';
-
-
-
-
-
-number.addEventListener(function(event){
-
-
-})
-
-
-
-
-
-    
 
