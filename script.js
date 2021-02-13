@@ -314,11 +314,14 @@ plus.addEventListener('click', function(){
   h4.innerText = '0'
   let square = document.querySelector('#square');
   let cube = document.querySelector('#cube');
- 
+  let root = document.querySelector('#root')
+
   square.addEventListener('click' , function(){
     h4.innerText = Number(squarecube.value) **(2/1);
 });
-
-cube.addEventListener('click' , function(){
+  cube.addEventListener('click' , function(){
     h4.innerText = Number(squarecube.value) **(3/1);
 })
+  root.addEventListener('click', function(){
+      h4.innerText = Number(squarecube.value) **(1/2);
+  })
