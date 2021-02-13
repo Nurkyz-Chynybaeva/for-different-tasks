@@ -312,8 +312,9 @@ plus.addEventListener('click', function(){
 
   let h4 = document.querySelector('h4');
   h4.innerText = '0'
- 
   let square = document.querySelector('#square');
   let cube = document.querySelector('#cube');
  
-
+  square.addEventListener('click' , function(){
+    h4.innerText = Number(squarecube.value) **(2/1);
+});
