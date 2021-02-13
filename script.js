@@ -269,6 +269,25 @@ let text = document.querySelector('#text');
 text.innerText = ' ';
 
 
+let pw = document.querySelector('#pw');
+pw.addEventListener('keydown', function(event){
+
+    if(pw.value.length <= 5){
+        text.innerText ='too hopeless!'
+    }
+
+    
+    if(pw.value.length >= 7){
+        text.innerText ='okay it fits...'
+    }
+
+    
+    if(pw.value.length >= 15){
+        text.innerText ='excellent!'
+    }
+
+})
+
 
 
 
