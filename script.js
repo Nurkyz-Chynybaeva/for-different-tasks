@@ -268,26 +268,32 @@ minusButton.addEventListener("click", function(){
 let text = document.querySelector('#text');
 text.innerText = ' ';
 
-
 let pw = document.querySelector('#pw');
 pw.addEventListener('keydown', function(event){
 
     if(pw.value.length <= 5){
         text.innerText ='too hopeless!'
     }
-
-    
     if(pw.value.length >= 7){
         text.innerText ='okay it fits...'
     }
-
-    
     if(pw.value.length >= 15){
         text.innerText ='excellent!'
     }
-
 })
 
+
+
+let h3 = document.querySelector('h3');
+h3.innerText = '0'
+
+let number1 = document.querySelector('#number1');
+let number2 = document.querySelector('#number2');
+
+let plus = document.querySelector('#plus');
+let minus = document.querySelector('#minus');
+let multiply = document.querySelector('#multiply');
+let division = document.querySelector('#division');
 
 
 
