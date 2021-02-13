@@ -296,5 +296,18 @@ let multiply = document.querySelector('#multiply');
 let division = document.querySelector('#division');
 
 
+plus.addEventListener('click', function(){
+    h3.innerText = Number(number1.value) + Number(number2.value);
+ });
+ minus.addEventListener('click', function(){
+     h3.innerText = Number(number1.value) - Number(number2.value);
+  });
+  multiply.addEventListener('click', function(){
+     h3.innerText = Number(number1.value) * Number(number2.value);
+  });
+  division.addEventListener('click', function(){
+     h3.innerText = Number(number1.value) / Number(number2.value);
+  });
+ 
 
 
