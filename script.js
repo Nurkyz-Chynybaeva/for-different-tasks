@@ -318,3 +318,7 @@ plus.addEventListener('click', function(){
   square.addEventListener('click' , function(){
     h4.innerText = Number(squarecube.value) **(2/1);
 });
+
+cube.addEventListener('click' , function(){
+    h4.innerText = Number(squarecube.value) **(3/1);
+})
