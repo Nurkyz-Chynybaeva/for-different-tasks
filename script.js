@@ -369,8 +369,10 @@ interval = setInterval(function(){
     scale += 0.09;
 });
 document.body.addEventListener('mouseup' , function(event){
-    
-})
+    clearInterval(interval);
+});
+
+
 });
 
 document.oncontextmenu = function(){
