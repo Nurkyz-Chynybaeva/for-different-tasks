@@ -344,7 +344,10 @@ if(event.which ==2){
     div.style.backgroundColor = "red";
 }
 if(event.which == 3){
-    div.style.backgroundColor = "pink"
+    div.style.backgroundColor = "pink";
+}
+if(event.ctrlKey){
+    div.style.backgroundColor = "lightblue";
 }
 
 
