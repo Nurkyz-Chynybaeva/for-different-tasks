@@ -337,6 +337,15 @@ document.body.addEventListener('mousedown' , function(){
     div.style.backgroundColor = "lightgreen";
     div.style.borderRadius = "50%";
     div.style.position = "absolute";
-    div.style.top = event.clientY + "px"
-    div.style.left = event.clientX + "px"
-})
+    div.style.top = event.clientY + "px";
+    div.style.left = event.clientX + "px";
+
+if(event.which ==2){
+    div.style.backgroundColor = "red";
+}
+if(event.which == 3){
+    div.style.backgroundColor = "pink"
+}
+
+
+});
