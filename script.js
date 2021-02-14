@@ -364,7 +364,9 @@ if(event.oneKey){
 }
 
 scale = 1
-
+interval = setInterval(function(){
+    
+})
 });
 
 document.oncontextmenu = function(){
