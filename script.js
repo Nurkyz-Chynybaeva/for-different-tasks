@@ -264,7 +264,7 @@ minusButton.addEventListener("click", function(){
 */
 
 
-
+/*
 let text = document.querySelector('#text');
 text.innerText = ' ';
 
@@ -325,3 +325,7 @@ plus.addEventListener('click', function(){
   root.addEventListener('click', function(){
       h4.innerText = Number(squarecube.value) **(1/2);
   })
+
+*/
+
+
