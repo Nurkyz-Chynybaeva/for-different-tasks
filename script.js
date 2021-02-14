@@ -349,7 +349,9 @@ if(event.which == 3){
 if(event.ctrlKey){
     div.style.backgroundColor = "lightblue";
 }
-
+if (event.altKey){
+    div.style.backgroundColor = "lightsalmon"
+}
 
 });
 
