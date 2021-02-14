@@ -331,6 +331,7 @@ plus.addEventListener('click', function(){
 
 document.body.addEventListener('mousedown' , function(){
     let div = document.createElement('div');
+
     document.body.append(div);
     div.style.width = "20px";
     div.style.height = "20px";
@@ -353,8 +354,17 @@ if (event.altKey){
     div.style.backgroundColor = "lightsalmon";
 }
 if(event.shiftKey){
-    div.style.backgroundColor = "lightgoldenrodyellow";
+    div.style.backgroundColor= "lightgoldenrodyellow";
 }
+let one = document.createElement('one')
+    one.value == 1
+
+if(event.oneKey){
+    div.style.backgroundColor= "black";
+}
+
+scale = 1
+
 });
 
 document.oncontextmenu = function(){
