@@ -349,3 +349,7 @@ if(event.which == 3){
 
 
 });
+
+document.oncontextmenu = function(){
+    return false
+}
