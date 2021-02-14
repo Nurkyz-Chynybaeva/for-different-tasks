@@ -366,6 +366,7 @@ if(event.oneKey){
 scale = 1
 interval = setInterval(function(){
     div.style.transform = `scale(${scale})`;
+    scale += 0.09;
 })
 });
 
