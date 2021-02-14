@@ -329,3 +329,14 @@ plus.addEventListener('click', function(){
 */
 
 
+document.body.addEventListener('mousedown' , function(){
+    let div = document.createElement('div');
+    document.body.append(div);
+    div.style.width = "20px";
+    div.style.height = "20px";
+    div.style.backgroundColor = "lightgreen";
+    div.style.borderRadius = "50%";
+    div.style.position = "absolute";
+    div.style.top = event.clientY + "px"
+    div.style.left = event.clientX + "px"
+})
