@@ -367,6 +367,9 @@ scale = 1
 interval = setInterval(function(){
     div.style.transform = `scale(${scale})`;
     scale += 0.09;
+});
+document.body.addEventListener('mouseup' , function(event){
+    
 })
 });
 
