@@ -350,9 +350,11 @@ if(event.ctrlKey){
     div.style.backgroundColor = "lightblue";
 }
 if (event.altKey){
-    div.style.backgroundColor = "lightsalmon"
+    div.style.backgroundColor = "lightsalmon";
 }
-
+if(event.shiftKey){
+    div.style.backgroundColor = "lightgoldenrodyellow";
+}
 });
 
 document.oncontextmenu = function(){
