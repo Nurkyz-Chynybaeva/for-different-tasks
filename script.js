@@ -382,7 +382,7 @@ document.oncontextmenu = function(){
 */
 
 let fruits = ["apple" , "watermelon" , "pomegranate" , "tangerine" , "bananas" , "kiwi"];
-
+let ul = document.createElement('ul');
 
 
 
