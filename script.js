@@ -390,8 +390,11 @@ for (let i = 0; i < fruits.length; i++) {
 let button = document.createElement('button');
 button.innerText = '-'
 li.innerText = fruits[i];
-ul.append(li)
-li.append(button)
+ul.append(li);
+li.append(button);
+button.addEventListener('click' , function(){
+    li.remove();
+})
 
 
 document.body.append(ul);
