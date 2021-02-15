@@ -383,9 +383,15 @@ document.oncontextmenu = function(){
 
 let fruits = ["apple" , "watermelon" , "pomegranate" , "tangerine" , "bananas" , "kiwi"];
 let ul = document.createElement('ul');
+let input = document.querySelector("input");
 for (let i = 0; i < fruits.length; i++) {
     let li = document.createElement('li');
+    li.addEventListener('click' , function(){
+
+    })
 }
+    
+
 
 let button = document.createElement('button');
 button.innerText = '-'
@@ -394,7 +400,7 @@ ul.append(li);
 li.append(button);
 button.addEventListener('click' , function(){
     li.remove();
-})
+});
 
 
 document.body.append(ul);
