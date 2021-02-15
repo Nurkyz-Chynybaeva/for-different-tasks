@@ -385,7 +385,10 @@ let fruits = ["apple" , "watermelon" , "pomegranate" , "tangerine" , "bananas" ,
 let ul = document.createElement('ul');
 for (let i = 0; i < fruits.length; i++) {
     let li = document.createElement('li');
-};
+}
+
+let button = document.createElement('button');
+button.innerText = '-'
 
 
 
