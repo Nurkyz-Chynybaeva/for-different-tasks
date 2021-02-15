@@ -328,11 +328,12 @@ plus.addEventListener('click', function(){
 
 */
 
-
+/*
 document.body.addEventListener('mousedown' , function(){
     let div = document.createElement('div');
 
     document.body.append(div);
+
     div.style.width = "20px";
     div.style.height = "20px";
     div.style.backgroundColor = "lightgreen";
@@ -378,3 +379,25 @@ document.body.addEventListener('mouseup' , function(event){
 document.oncontextmenu = function(){
     return false
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
