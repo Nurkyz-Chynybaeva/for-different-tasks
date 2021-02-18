@@ -458,3 +458,11 @@ fetch("./data.json").then(function (response) {
     })
 })
 
+
+button.addEventListener("click" , function () {
+    let li = returnListItem(input.value);
+    if (li){
+        input.value = ''
+        ul.append(li);
+    }
+})
