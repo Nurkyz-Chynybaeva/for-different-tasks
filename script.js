@@ -466,3 +466,20 @@ button.addEventListener("click" , function () {
         ul.append(li);
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+let li = document.createElement("li");
+    let button = document.createElement("button");
+    let span = document.createElement("span");
+
+
+
