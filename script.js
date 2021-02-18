@@ -467,15 +467,11 @@ button.addEventListener("click" , function () {
     }
 })
 
-
-
-
-
-
-
-
-
-
+function returnListItem(text = ''){
+    if (!text.trim()){
+        return false;
+    
+}
 
 let li = document.createElement("li");
     let button = document.createElement("button");
@@ -493,3 +489,9 @@ let li = document.createElement("li");
     span.addEventListener("click", function () {
         span.classList.toggle('done');
     });
+    
+    li.append(span);
+    li.append(button);
+    
+    return li;
+}
