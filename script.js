@@ -504,3 +504,7 @@ let th1 = document.createElement('th');
 let th2 = document.createElement('th');
 let th3 = document.createElement('th');
 
+
+th1.innerText = "Name";
+th2.innerText = "Age";
+th3.innerText = "Hobby";
