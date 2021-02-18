@@ -382,6 +382,7 @@ document.oncontextmenu = function(){
 */
 
 
+/*
 
 let fruits = ["apple" , "bananas" , "watermelon" , "tangerine" ,  "grapes" , "orange" , "kiwi"];
 let ul = document.createElement("ul");
@@ -435,6 +436,14 @@ let button = document.createElement("button");
     }
   });
 
+*/
 
+
+
+let ul = document.createElement("ul");
+let input = document.querySelector("input");
+let button = document.querySelector("button");
+
+document.body.append(ul);
 
 
