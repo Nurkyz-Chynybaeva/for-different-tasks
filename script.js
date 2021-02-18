@@ -486,3 +486,10 @@ let li = document.createElement("li");
     button.innerText = "-";
     span.innerText = text;
 
+
+    button.addEventListener("click", function () {
+        li.remove();
+    });
+    span.addEventListener("click", function () {
+        span.classList.toggle('done');
+    });
