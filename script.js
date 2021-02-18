@@ -447,3 +447,14 @@ let button = document.querySelector("button");
 document.body.append(ul);
 
 
+fetch("./data.json").then(function (response) {
+    response.json().then(function (json) {
+        for (let i in json.todo) {
+            let li = returnListItem(json.todo [i]);
+            if (li){
+                ul.append(li);
+            }
+        }
+    })
+})
+
