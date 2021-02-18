@@ -483,3 +483,6 @@ let li = document.createElement("li");
 
 
 
+    button.innerText = "-";
+    span.innerText = text;
+
