@@ -505,6 +505,11 @@ let th2 = document.createElement('th');
 let th3 = document.createElement('th');
 
 
+let tr = document.createElement('tr');
+let th1 = document.createElement('th');
+let th2 = document.createElement('th');
+let th3 = document.createElement('th');
+
 th1.innerText = "id";
 th2.innerText = "name";
 th3.innerText = "welth";
