@@ -505,6 +505,12 @@ let th2 = document.createElement('th');
 let th3 = document.createElement('th');
 
 
-th1.innerText = "Name";
-th2.innerText = "Age";
-th3.innerText = "Hobby";
+th1.innerText = "id";
+th2.innerText = "name";
+th3.innerText = "welth";
+
+table.append(tr);
+tr.append(th1);
+tr.append(th2);
+tr.append(th3);
+document.body.append(table);
