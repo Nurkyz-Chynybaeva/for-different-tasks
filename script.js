@@ -495,3 +495,12 @@ let li = document.createElement("li");
     
     return li;
 }
+
+
+
+let table = document.createElement('table');
+let tr = document.createElement('tr');
+let th1 = document.createElement('th');
+let th2 = document.createElement('th');
+let th3 = document.createElement('th');
+
